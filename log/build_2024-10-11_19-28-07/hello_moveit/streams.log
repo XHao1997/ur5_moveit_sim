@@ -1,0 +1,79 @@
+[0.014s] Invoking command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/wx_pc/Desktop/ur_sim/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/wx_pc/Desktop/ur_sim/install/hello_moveit
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.548s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/wx_pc/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.742s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.814s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.825s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.838s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.159s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.223s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.230s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.326s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.350s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.407s] -- Found Threads: TRUE  
+[1.459s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.463s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.490s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.591s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.629s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.794s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.822s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.844s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.876s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.961s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wx_pc/Desktop/ur_sim/src/hello_moveit/include>
+[1.961s] -- Configured cppcheck exclude dirs and/or files: 
+[1.962s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.963s] -- Added test 'lint_cmake' to check CMake code style
+[1.964s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.965s] -- Added test 'uncrustify' to check C / C++ code style
+[1.965s] -- Configured uncrustify additional arguments: 
+[1.965s] -- Added test 'xmllint' to check XML markup files
+[1.967s] -- Configuring done
+[1.988s] -- Generating done
+[1.990s] -- Build files have been written to: /home/wx_pc/Desktop/ur_sim/build/hello_moveit
+[2.002s] Invoked command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/wx_pc/Desktop/ur_sim/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/wx_pc/Desktop/ur_sim/install/hello_moveit
+[2.003s] Invoking command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/wx_pc/Desktop/ur_sim/build/hello_moveit -- -j16 -l16
+[2.063s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[7.824s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[8.093s] [100%] Built target hello_moveit
+[8.103s] Invoked command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/wx_pc/Desktop/ur_sim/build/hello_moveit -- -j16 -l16
+[8.133s] Invoking command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/wx_pc/Desktop/ur_sim/build/hello_moveit
+[8.142s] -- Install configuration: ""
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/lib/hello_moveit/hello_moveit
+[8.143s] -- Set runtime path of "/home/wx_pc/Desktop/ur_sim/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit//launch
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit//launch/hello_moveit.launch.py
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/environment/path.sh
+[8.143s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/local_setup.bash
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/local_setup.sh
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/package.dsv
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[8.144s] -- Installing: /home/wx_pc/Desktop/ur_sim/install/hello_moveit/share/hello_moveit/package.xml
+[8.146s] Invoked command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/wx_pc/Desktop/ur_sim/build/hello_moveit

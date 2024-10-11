@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wx_pc/UR5e_Vision_Assemble/install/realsense2_camera_msgs/include/**",
+        "/home/wx_pc/UR5e_Vision_Assemble/install/gazebo_version_helpers/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/wx_pc/Desktop/ur_sim/src/ur_move/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

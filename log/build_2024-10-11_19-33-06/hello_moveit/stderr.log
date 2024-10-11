@@ -1,0 +1,10 @@
+[01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:46:1:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentPose[m[K’ was not declared in this scope
+   46 | [01;31m[KcurrentPose[m[K = move_group_interface.
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::shutdown[m[K’ is not a class member
+   48 |   [01;31m[Krclcpp[m[K::shutdown();
+      |   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

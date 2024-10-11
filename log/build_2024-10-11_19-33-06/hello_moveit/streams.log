@@ -1,0 +1,14 @@
+[0.017s] Invoking command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/wx_pc/Desktop/ur_sim/build/hello_moveit -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[3.686s] [01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.686s] [01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:46:1:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentPose[m[K’ was not declared in this scope
+[3.686s]    46 | [01;31m[KcurrentPose[m[K = move_group_interface.
+[3.686s]       | [01;31m[K^~~~~~~~~~~[m[K
+[3.686s] [01m[K/home/wx_pc/Desktop/ur_sim/src/hello_moveit/src/hello_moveit.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::shutdown[m[K’ is not a class member
+[3.686s]    48 |   [01;31m[Krclcpp[m[K::shutdown();
+[3.686s]       |   [01;31m[K^~~~~~[m[K
+[5.594s] gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[5.594s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+[5.594s] gmake: *** [Makefile:146: all] Error 2
+[5.595s] Invoked command in '/home/wx_pc/Desktop/ur_sim/build/hello_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wx_pc/ws_moveit2/install/moveit_configs_utils:/home/wx_pc/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/wx_pc/Desktop/ur_sim/build/hello_moveit -- -j16 -l16
