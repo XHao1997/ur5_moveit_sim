@@ -1,9 +1,0 @@
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/uninstall.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/ur_simulation_gz_uninstall.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/test.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/edit_cache.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/rebuild_cache.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/list_install_components.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/install.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/install/local.dir
-/home/wx_pc/Desktop/ur_sim/build/ur_simulation_gz/CMakeFiles/install/strip.dir
