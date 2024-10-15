@@ -2,12 +2,12 @@
 #include "ur5_move_control.hpp"
 
 UR5MoveControl::UR5MoveControl(const std::string& group_name, std::shared_ptr<rclcpp::Node> node)
-:Node("ur5_") {
+: Node("ur5_move_control"), PLANNING_GROUP(group_name)  // Corrected Node initialization
+{
     // Constructor code
-    move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), PLANNING_GROUP);
-    
-
+    move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node, PLANNING_GROUP);
 }
+
 
 // Destructor
 UR5MoveControl::~UR5MoveControl() {
