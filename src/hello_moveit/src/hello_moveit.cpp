@@ -1,7 +1,8 @@
 #include <memory>
-
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
+
+
 
 int main(int argc, char * argv[])
 {
@@ -22,7 +23,12 @@ auto move_group_interface = MoveGroupInterface(node, "ur_manipulator");
 // Set a target Pose
 auto const target_pose = []{
   geometry_msgs::msg::Pose msg;
-  msg.orientation.w = 0.0;
+  msg.orientation.w = 1.0;
+  msg.orientation.x = 1.0;
+
+  msg.orientation.y = 1.0;
+  msg.orientation.z = 1.0;
+
   msg.position.x = -0.7;
   msg.position.y = -0.5;
   msg.position.z = 0.2;
